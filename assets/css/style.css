@@ -1,0 +1,399 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+:root{
+    --primarycolor--:#fff;
+}
+#header .left 
+{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    
+}
+#header .left img{
+    width: 150px;
+}
+#header  .right {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+
+}
+#header .right ul li{
+    display: flex;
+}
+#header .right ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: var(--primarycolor--);
+    font-size: 16px;
+}
+/* responsice navbar start here */
+ /* responsive header start here*/
+ #head{
+     width: 100%;
+     height: 80px;
+
+ }
+  #togle{
+    position: absolute;
+    margin-top: 30px;
+    right: 40px;
+    width: 30px;
+    height: 40px;
+    display: none;
+
+}
+.spinner{
+    border-bottom: 4px solid black;
+  padding-bottom: 4px;
+}
+
+#head .left 
+{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+   color: blue;
+   
+}
+#head .left img{
+    width: 150px;
+}
+#navbar{
+    top: 0px;
+    left: 0px;
+    background-color: rgb(119, 24, 24);
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid rgb(243, 243, 243);
+    
+  }
+ 
+#navbar ul{
+  margin-top: 2px;
+  margin-left: 0px;
+  background-color: white;
+ 
+}
+
+#navbar .d-flex{
+  
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: black;
+    font-weight: bold;
+   
+}
+#navbar .close{
+    font-size: 30px;
+    margin-right: 20px;
+}
+#navbar  .rem{
+  font-weight: bold;
+ 
+  font-size: 30px;
+}
+#navbar ul{
+    margin-top: 80px;
+   
+}
+#navbar ul li{
+   
+  display: flex;
+}
+#navbar ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-top: 5px;
+  text-align: center;
+}
+
+
+/* vision section start here */
+#vision{
+    text-align: center;
+    margin-top: 420px;
+    color: var(--primarycolor--);
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+h2{
+    font-size:25px;
+    font-weight: 550;
+}
+h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+    text-align: center;
+}
+#vision button{
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: #ff000000 ;
+    border: 2px solid white;
+    color: var(--primarycolor--);
+    border-radius: 50px;
+}
+#vision button:hover{
+    background-color: white;
+    color: black;
+    
+}
+#vision::before{
+    content: " ";
+    position: absolute;
+    background: url('/assets/pics/2.png')no-repeat center center/cover ;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 150%;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+/* center section start here */
+#center{
+    margin-top: 430px;
+}
+
+#center h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#center  p{
+    color: #54595F;
+}
+
+#center i{
+    font-size: 90px;
+    color: var(--primarycolor--);
+}
+.brown{
+    background-color: #ecd06f;
+    height: 225px;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 30px;
+}
+.green{
+    background-color: #00a78e;
+    height: 225px;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 40px;
+   
+}
+.red{
+    background-color: #ff1053;
+    height: 500px;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 30px;
+}
+#center .red p{
+    color: var(--primarycolor--);
+    font-size: 15px;
+}
+.blue{
+    margin-top: 50px;
+    background-color: #00bce4;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 30px;
+}
+
+/* services section start here */
+#services{
+    margin-top: 100px;
+}
+#services h1{
+    font-size: 33px;
+}
+#services h3{
+    font-size: 25px;
+}
+#services p{
+    text-align: start;
+    color: #54595F;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+#services img{
+    width: 100px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+/* resources section start here */
+#resources h1{
+    margin-top: 50px;
+    font-size: 30px;
+}
+#resources ol li{
+    font-size: 17px;
+   margin-top: 4px;
+   color: #54595F;
+}
+
+/* section cespi start here */
+#cespi{
+    margin-top: 50px;
+}
+#cespi h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+#cespi h2{
+    font-weight: bold;
+}
+#cespi p{
+    text-align: start;
+    color: #54595F;
+}
+
+
+
+#innovation i{
+    font-size: 30px;
+    color: black;
+}
+#innovation .col-md-4
+{ 
+    padding: 20px 40px;
+    font-size: 30px;
+    color: black;
+}
+
+/* terms section start here */
+#terms img{
+    width: 150px;
+    padding-right: 40px;
+   
+}
+#terms .col-md-3 ul{
+   display: flex;
+   margin-top: 10px;
+}
+#terms .col-md-3 ul li{
+    display: flex;
+    padding: 0px 10px;
+}
+#terms .col-md-3 ul li:hover{
+   color: blue;
+}
+#terms i{
+    font-size: 20px;
+    color: black;
+}
+
+footer{
+    color: blue;
+    text-align: center;
+    margin: 30px 0px;
+}
